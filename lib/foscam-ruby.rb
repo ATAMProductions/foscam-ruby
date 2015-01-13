@@ -1,11 +1,12 @@
 require "foscam/version"
 require "faraday"
 require "mini_magick"
-require "activesupport/core_ext/module/delegation"
-require "activesupport/core_ext/object/to_query"
-require "activesupport/core_ext/class/attribute_accessors"
-require "activesupport/core_ext/time/zones"
-require "activesupport/core_ext/date_time/zones"
+require 'active_support'
+# require "activesupport/core_ext/module/delegation"
+# require "activesupport/core_ext/object/to_query"
+# require "activesupport/core_ext/class/attribute_accessors"
+# require "activesupport/core_ext/time/zones"
+# require "activesupport/core_ext/date_time/zones"
 require "date"
 require "active_model"
 require 'singleton'
